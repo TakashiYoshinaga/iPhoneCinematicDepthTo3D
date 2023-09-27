@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _depthVideo: {fileID: 32900000, guid: 85ef7121de2584c03b1b42f6a7b2993a, type: 3}
-  _colorVideo: {fileID: 32900000, guid: 2f78f609d2d944036bde7dd6cd05754e, type: 3}
+  _colorVideo: {fileID: 32900000, guid: 17f78beddf31948dc891303d5f32be9a, type: 3}
   _xSteps: 200
   _ySteps: 200
   _depthScale: 1.5
