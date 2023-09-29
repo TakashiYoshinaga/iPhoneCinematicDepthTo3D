@@ -69,7 +69,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 6. Inspectorで「Depth Video」にdepth_outputをドラッグ＆ドロップ
 7. UnityEditorの上部でPlayボタンをクリックして再生<br>
    **補足1:** 表示オブジェクトのサイズを変更するには、[DepthMesh]オブジェクトのScaleを変更します。  
-   **補足2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。
+   **補足2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。  
    **補足3:** 視点を変更するには、Scene Viewを使用してください。Game View内での視点コントロールは実装されていません。
 
 
