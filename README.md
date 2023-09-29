@@ -77,3 +77,7 @@ Additionally, the iPhone 15 Series is compatible.
 While this sample is under the MIT License, be aware of the following dependencies and their respective licenses:
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
+
+## 8. Feedback on Social Media
+Feel free to provide feedback on our project via social media. We appreciate your insights and comments.  
+Connect with us on [X (Well know as Twitter)](https://twitter.com/Tks_Yoshinaga).
