@@ -80,4 +80,4 @@ While this sample is under the MIT License, be aware of the following dependenci
 
 ## 8. Feedback on Social Media
 Feel free to provide feedback on my project via social media. I appreciate your insights and comments.  
-Connect with me on [X (Well know as Twitter)](https://twitter.com/Tks_Yoshinaga).
+Connect with me on [X (Well know as Twitter) @Tks_Yoshinaga](https://twitter.com/Tks_Yoshinaga).
