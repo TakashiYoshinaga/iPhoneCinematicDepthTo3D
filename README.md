@@ -71,7 +71,7 @@ Additionally, the iPhone 15 Series is compatible.
 6. Drag & drop `depth_output` onto "Depth Video" in the Inspector
 7. At the top of the UnityEditor, click the Play button  
    **Note 1:** Adjust the displayed object size by changing the Scale of the [DepthMesh] object.  
-   **Note 2:** To solely alter the Depth Scale, you can modify the Depth Scale value (Default=1.5) of the [Main] object.  
+   **Note 2:** To solely adjust the depth scale, you can modify the Depth Scale value (Default=1.5) of the [Main] object.  
    **Note 3:** To change viewpoints, please use the Scene View. Viewpoint control within the Game View have not been implemented.
 
 ## 7. License
