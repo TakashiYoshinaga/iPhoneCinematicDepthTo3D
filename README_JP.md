@@ -51,7 +51,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 5. Filesアプリを起動
 6. ステップ4で保存したビデオを好きな方法で共有（例：Google Driveへアップロード）
 
-## 5. DepthとColorビデオの分離（Windowsのみ）
+## 5. DepthビデオとColorビデオの分離（Windowsのみ）
 1. DepthExtractor_Winフォルダを開く
 2. Executableフォルダ内のDepthExtractor.exeを起動するか、またはVisual Studioを使用してProjectフォルダのプロジェクトを実行
 3. Openボタンをクリックし、シネマティックビデオを選択
