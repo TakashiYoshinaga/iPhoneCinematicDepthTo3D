@@ -75,3 +75,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 このサンプル自体はMITライセンスですが、以下の依存関係とそれに関連するライセンスに注意してください：
 - [GPAC2.2](https://gpac.wp.imt.fr/) - ライセンス: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - ライセンス: [GNU Lesser General Public License, version 2.1]
+
+## 8. フィードバック
+本プロジェクトに関するフィードバックやお問い合わせをSNSを通じて気軽にお知らせください。皆さまの意見やコメントをお待ちしております。  
+連絡先： [X(旧Twitter) @Taka_Yoshinaga](https://twitter.com/Taka_Yoshinaga)
