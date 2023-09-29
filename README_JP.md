@@ -57,7 +57,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 3. Openボタンをクリックし、シネマティックビデオを選択
 4. Convertボタンをクリックし、「Done」と表示されるまで待つ
 5. ステップ3で選択したビデオと同じフォルダにcolor_output.webmとdepth_output.webmが生成されます。  
-   **注意:** depthビデオのサイズは512x288または288x512、colorビデオのサイズは512x512です。
+   **補足:** depthビデオのサイズは512x288または288x512、colorビデオのサイズは512x512です。
 
 ## 6. Unityでの3Dイメージとしての表示
 1. UnityでDepthPlayerプロジェクトを開く
@@ -68,8 +68,10 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 5. Inspectorで「Color Video」にcolor_outputをドラッグ＆ドロップ
 6. Inspectorで「Depth Video」にdepth_outputをドラッグ＆ドロップ
 7. UnityEditorの上部でPlayボタンをクリックして再生<br>
-   **注意1:** 表示オブジェクトのサイズを変更するには、[DepthMesh]オブジェクトのScaleを変更します。  
-   **注意2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。
+   **補足1:** 表示オブジェクトのサイズを変更するには、[DepthMesh]オブジェクトのScaleを変更します。  
+   **補足2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。
+   **補足3:** 視点を変更するには、Scene Viewを使用してください。Game View内での視点コントロールは実装されていません。
+
 
 ## 7. ライセンス
 このサンプル自体はMITライセンスですが、以下の依存関係とそれに関連するライセンスに注意してください：
