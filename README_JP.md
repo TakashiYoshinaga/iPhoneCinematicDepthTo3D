@@ -1,10 +1,12 @@
 ## 1. 概要
 
 本リポジトリのサンプルは、以下の2つのプロジェクトを含みます：
-- DepthExtractor：<br>
+- DepthExtractor：  
 Cinematicモードで撮影したビデオからDepthとColorを分離するC#のサンプルプロジェクト。
-- DepthPlayer：<br>
+- DepthPlayer：  
 DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェクト。
+
+[![](https://img.youtube.com/vi/MR8TF1z-nTg/0.jpg)](https://www.youtube.com/watch?v=MR8TF1z-nTg)
 
 ## 2. シネマティックモードの互換性
 [Appleサポート](https://support.apple.com/ja-jp/HT212778)を参照してください。  
