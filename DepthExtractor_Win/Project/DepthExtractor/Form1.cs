@@ -60,7 +60,7 @@ namespace DepthExtractor
                 ExecuteCommand(ffmpegPath, arguments);    
             });
             Console.WriteLine("Done!");
-            label2.Text = "Done! (Check depth_output.mp4)";
+            label2.Text = "Done! (Check depth_output.webm)";
             button2.Enabled = true;
             button1.Enabled = true;
         }
