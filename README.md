@@ -78,6 +78,6 @@ While this sample is under the MIT License, be aware of the following dependenci
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
 
-## 8. Feedback on Social Media
+## 8. Social Media
 Feel free to provide feedback on my project via social media. I appreciate your insights and comments.  
 Connect with me on [X (Well know as Twitter) @Tks_Yoshinaga](https://twitter.com/Tks_Yoshinaga).
