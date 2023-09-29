@@ -7,6 +7,8 @@ This sample consists of two projects:
 A C# sample project for separating Depth and Color from videos shot in Cinematic mode.
 - DepthPlayer:<br>
 A Unity sample project to display Depth and Color videos in 3D.
+<br>
+[![](https://img.youtube.com/vi/MR8TF1z-nTg/0.jpg)](https://www.youtube.com/watch?v=MR8TF1z-nTg)
 
 ## 2. Cinematic Mode Compatibility
 Refer to [Apple Support](https://support.apple.com/ja-jp/HT212778).  
