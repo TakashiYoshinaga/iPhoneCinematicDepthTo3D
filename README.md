@@ -79,5 +79,5 @@ While this sample is under the MIT License, be aware of the following dependenci
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
 
 ## 8. Feedback on Social Media
-Feel free to provide feedback on our project via social media. We appreciate your insights and comments.  
-Connect with us on [X (Well know as Twitter)](https://twitter.com/Tks_Yoshinaga).
+Feel free to provide feedback on my project via social media. I appreciate your insights and comments.  
+Connect with me on [X (Well know as Twitter)](https://twitter.com/Tks_Yoshinaga).
