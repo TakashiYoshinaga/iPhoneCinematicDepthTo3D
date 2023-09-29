@@ -6,11 +6,11 @@ using UnityEngine;
 [RequireComponent(typeof(MeshRenderer))]
 public class GridMesh : MonoBehaviour
 {
-    RenderTexture _depthTexture;
-    RenderTexture _colorTexture;
+    Texture _depthTexture;
+    Texture _colorTexture;
     MeshRenderer _meshRenderer;
 
-    public void InitializeGridMesh(RenderTexture depthTexture, RenderTexture colorTexture, int xSteps, int ySteps, float depthScale){
+    public void InitializeGridMesh(Texture depthTexture, Texture colorTexture, int xSteps, int ySteps, float depthScale){
         _depthTexture=depthTexture;
         _colorTexture=colorTexture;
         InitializeMesh(xSteps,ySteps,depthScale);
