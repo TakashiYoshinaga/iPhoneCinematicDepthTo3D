@@ -72,6 +72,6 @@ Also, iPhone 15 Series are compatible.
    **Note 2:** To change only the Depth Scale, you can also modify the Depth Scale value (Default=1.5) of the [Main] object.
 
 ## 7. License
-This project utilizes the following open-source software:
+While this sample is licensed under the MIT License, please note the following dependencies and their associated licenses:
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
