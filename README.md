@@ -35,7 +35,7 @@ Also, iPhone 15 Series are compatible.
 #### For Mac
 1. Connect iPhone to Mac with USB cable
 2. Open Mac's Photos app
-3. Choose "Phone" from the list on the left side of the window
+3. Choose "iPhone" from the list on the left side of the window
 4. Select the video you want to import and click the Import button
 5. Select "Imports" from the list on the left side of the window
 6. From the menu bar at the top of the screen, choose File -> Export
