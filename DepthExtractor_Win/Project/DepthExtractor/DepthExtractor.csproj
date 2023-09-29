@@ -78,9 +78,406 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ThirdParty\GPAC\sdk\lib\libgpac.lib" />
+    <None Include="ThirdParty\GPAC\share\default.cfg" />
+    <None Include="ThirdParty\GPAC\share\gui\extensions\showroom\gpac.bt" />
+    <None Include="ThirdParty\GPAC\share\gui\gui.bt" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\angular.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Bounce.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\BowTieHorizontal.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\BowTieVertical.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\BowTieWithParameter.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\burn.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\ButterflyWaveScrawler.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\cannabisleaf.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\circle.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\CircleCrop.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\circleopen.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\colorphase.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\ColourDistance.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\CrazyParametricFun.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\crosshatch.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\crosswarp.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\CrossZoom.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\cube.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\directional-easing.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Directional.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\directionalwarp.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\directionalwipe.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\displacement.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\DoomScreenTransition.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\doorway.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Dreamy.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\DreamyZoom.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\fade.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\fadecolor.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\fadegrayscale.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\FilmBurn.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\flyeye.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\GlitchDisplace.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\GlitchMemories.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\GridFlip.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\heart.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\hexagonalize.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\InvertedPageCurl.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\kaleidoscope.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\LeftRight.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\LinearBlur.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\luma.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\luminance_melt.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\morph.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Mosaic.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\multiply_blend.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\perlin.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\pinwheel.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\pixelize.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\polar_function.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\PolkaDotsCurtain.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Radial.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\randomNoisex.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\randomsquares.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\ripple.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\rotateTransition.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\rotate_scale_fade.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\SimpleZoom.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\squareswire.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\squeeze.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\StereoViewer.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\swap.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\Swirl.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\tangentMotionBlur.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\TopBottom.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\TVStatic.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\undulatingBurnOut.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\WaterDrop.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\wind.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\windowblinds.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\windowslice.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\wipeDown.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\wipeLeft.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\wipeRight.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\wipeUp.glsl" />
+    <None Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gl-transitions\ZoomInCircles.glsl" />
+    <None Include="ThirdParty\GPAC\share\shaders\fragment.glsl" />
+    <None Include="ThirdParty\GPAC\share\shaders\vertex.glsl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ThirdParty\GPAC\cache\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ThirdParty\ffmpeg-N-112191-g58b6c0c327-win64-lgpl\bin\ffmpeg.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\ffmpeg-N-112191-g58b6c0c327-win64-lgpl\LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avcodec-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avcodec-59.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avdevice-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avdevice-59.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avfilter-7.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avfilter-8.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avformat-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avformat-59.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avutil-56.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\avutil-57.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\Changelog.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gf_ohevcdec.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gm_dx_hw.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gm_ft_font.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gm_sdl_out.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gm_validator.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gm_wav_out.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\gpac.exe" />
+    <Content Include="ThirdParty\GPAC\gpac.ico" />
+    <Content Include="ThirdParty\GPAC\libcryptoMD.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\libgpac.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\libsslMD.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\libx264-142.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\mp4box.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\openhevc-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\OpenSVCDecoder.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\postproc-55.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\postproc-56.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\ReadMe.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\00_doxy.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\ait.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\avparse.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\base_coding.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\bifs.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\bitstream.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\cache.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\color.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\compositor.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\configuration.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\config_file.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\constants.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\crypt.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\crypt_tools.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\dash.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\download.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\dsmcc.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\dvb_mpe.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\events.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\events_constants.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\evg.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\filters.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\html5_media.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\html5_mse.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\ietf.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\avilib.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\bifs_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\bifs_tables.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\camera.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\compositor_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\crypt_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\dvb_mpe_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\ietf_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\isomedia_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\laser_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\m3u8.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\media_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\mesh.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\odf_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\odf_parse_common.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\ogg.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\reedsolomon.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\scenegraph_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\swf_dev.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\internal\vobsub.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\iso639.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\isomedia.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\laser.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\list.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\main.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\maths.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\mediaobject.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\media_tools.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\module.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\audio_out.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\codec.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\compositor_ext.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\font.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\hardcoded_proto.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\ipmp.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\modules\video_out.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\mpd.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\mpeg4_odf.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\mpegts.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\network.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\nodes_mpeg4.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\nodes_svg.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\nodes_x3d.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\path2d.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\Remotery.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\revision.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\route.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\rtp_streamer.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\scenegraph.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\scenegraph_svg.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\scenegraph_vrml.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\scene_engine.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\scene_manager.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\setup.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\svg_types.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\sync_layer.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\thread.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\token.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\tools.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\utf.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\version.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\webvtt.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\gpac\xml.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\win32\inttypes.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\win32\stdint.h" />
+    <Content Include="ThirdParty\GPAC\sdk\include\wince\errno.h" />
+    <Content Include="ThirdParty\GPAC\SDL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\SDL2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\about\info.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\about\info.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\about\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\bifs_tests\applications-other.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\bifs_tests\bifs_tests.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\bifs_tests\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\dashif\dashif.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\dashif\dashif_tests.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\dashif\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\H2B2VS\h2b2vs.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\H2B2VS\H2B2VS.png" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\H2B2VS\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\H2B2VS\logo_hd.png" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\H2B2VS\logo_uhd.png" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\applications-multimedia.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\fileopen.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\player.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\playlist.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\player\stats.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\showroom\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\showroom\showroom.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\widget_manager\applications-system.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\extensions\widget_manager\init.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\gui.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\gwlib.js" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\add.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\app.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\audio.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\audio_full.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\audio_mute.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\chapter.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\check.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\close.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\compass.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\cross.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\down.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\expand.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\file.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\film.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\folder.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\gpac.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\harddrive.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\heart.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\home.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\image.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\info.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\laptop.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\left.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\list.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\live.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\media_next.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\media_prev.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\monitor.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\more.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\musical.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\navigation.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\network.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\next.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\overflowing.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\pause.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\play.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\play_loop.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\play_shuffle.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\play_single.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\pl_next.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\pl_prev.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\power.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\previous.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\remove.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\resize.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\rewind.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\right.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\seek_forward.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\shrink.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\sort.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\speed.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\star.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\stop.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\stop2.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\trash.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\tray.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\tv.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\up.svg" />
+    <Content Include="ThirdParty\GPAC\share\gui\icons\world.svg" />
+    <Content Include="ThirdParty\GPAC\share\lang\fr.txt" />
+    <Content Include="ThirdParty\GPAC\share\res\gpac.mp4" />
+    <Content Include="ThirdParty\GPAC\share\res\gpac.png" />
+    <Content Include="ThirdParty\GPAC\share\res\gpac_cfg_test.mp4" />
+    <Content Include="ThirdParty\GPAC\share\res\gpac_highres.png" />
+    <Content Include="ThirdParty\GPAC\share\scripts\custom_dash.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avgen\init.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avgen\testcard.png" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\help.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\init.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\scenes\clear.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\scenes\clip.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\scenes\mask.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\scenes\shape.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\fade.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\gltrans.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\mix.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\avmix\transitions\swipe.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\glpush.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\jsf\thumbs\init.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\ttml-renderer.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\vout.js" />
+    <Content Include="ThirdParty\GPAC\share\scripts\webvtt-renderer.js" />
+    <Content Include="ThirdParty\GPAC\swresample-3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\swresample-4.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\swscale-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\swscale-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ThirdParty\GPAC\uninstall.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

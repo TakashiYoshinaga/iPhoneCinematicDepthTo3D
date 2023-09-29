@@ -19,8 +19,10 @@ namespace DepthExtractor
     {
         string _originalFileName = null;
         string _folderPath = null;
-        const string mp4boxPath = @"C:\Program Files\GPAC\mp4box.exe";
-        const string ffmpegPath = @"C:\Program Files\GPAC\ffmpeg.exe";
+        //const string mp4boxPath = @"C:\Program Files\GPAC\mp4box.exe";
+        //const string ffmpegPath = @"C:\Program Files\GPAC\ffmpeg.exe";
+        const string mp4boxPath = @"ThirdParty\GPAC\mp4box.exe";
+        const string ffmpegPath = @"ThirdParty\ffmpeg-N-112191-g58b6c0c327-win64-lgpl\bin\ffmpeg.exe";
 
         public Form1()
         {
