@@ -11,7 +11,7 @@ A Unity sample project to display Depth and Color videos in 3D.
 [![](https://img.youtube.com/vi/MR8TF1z-nTg/0.jpg)](https://www.youtube.com/watch?v=MR8TF1z-nTg)
 
 ## 2. Cinematic Mode Compatibility
-Refer to [Apple Support](https://support.apple.com/ja-jp/HT212778).  
+Refer to [Apple Support](https://support.apple.com/en-us/HT212778).  
 Additionally, the iPhone 15 Series is compatible.
 
 ## 3. iPhone Settings
