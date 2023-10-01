@@ -73,12 +73,15 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
    **補足2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。  
    **補足3:** マウスを用いた視点変更にはScene Viewを使用してください。Game View内での視点コントロールは未実装です。
 
-
 ## 7. ライセンス
 このサンプル自体はMITライセンスですが、以下の依存関係とそれに関連するライセンスに注意してください：
 - [GPAC2.2](https://gpac.wp.imt.fr/) - ライセンス: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - ライセンス: [GNU Lesser General Public License, version 2.1]
 
-## 8. フィードバック
+## 8. 参考
+Depth Extractorを開発するにあたり、[Jan Kaiser](https://twitter.com/jankais3r)氏による試行錯誤の結果を参考にしました。  
+詳細は[こちらのポスト](https://twitter.com/jankais3r/status/1442466943697489923)をご参照ください。
+
+## 9. フィードバック
 本プロジェクトに関するフィードバックやお問い合わせをSNSを通じて気軽にお知らせください。皆さまの意見やコメントをお待ちしております。  
 連絡先： [X(旧Twitter) @Taka_Yoshinaga](https://twitter.com/Taka_Yoshinaga)
