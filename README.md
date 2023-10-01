@@ -74,11 +74,15 @@ Additionally, the iPhone 15 Series is compatible.
    **Note 2:** To solely adjust the depth scale, you can modify the Depth Scale value (Default=1.5) of the [Main] object.  
    **Note 3:** To change viewpoints, please use the Scene View. Viewpoint control within the Game View have not been implemented.
 
-## 7. License
+## 7. Acknowledgements
+In the development of Depth Extractor, the trial and error results by [Jan Kaiser](https://twitter.com/jankais3r) proved to be invaluable.  
+You can see the details in [this tweet](https://twitter.com/jankais3r/status/1442466943697489923).
+
+## 8. License
 While this sample is under the MIT License, be aware of the following dependencies and their respective licenses:
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
 
-## 8. Feedback
+## 9. Feedback
 Feel free to provide feedback on my project via social media. I appreciate your insights and comments.  
 Connect with me on [X (Well know as Twitter) @Tks_Yoshinaga](https://twitter.com/Tks_Yoshinaga).
