@@ -80,7 +80,7 @@ Additionally, the iPhone 15 Series is compatible.
 While this sample is under the MIT License, be aware of the following dependencies and their respective licenses:
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
-- [FFmpeg](https://lookingglassfactory.com) - License: [See [here](https://github.com/TakashiYoshinaga/iPhoneCinematicDepthTo3D/blob/main/DepthPlayer_LKG/Assets/Holoplay/LICENSE.txt)]
+- [Looking Glass Unity PlugIn](https://lookingglassfactory.com) - License: [See [here](https://github.com/TakashiYoshinaga/iPhoneCinematicDepthTo3D/blob/main/DepthPlayer_LKG/Assets/Holoplay/LICENSE.txt)]
 
 ## 8. Acknowledgements
 In the development of Depth Extractor, the trial and error results by [Jan Kaiser](https://twitter.com/jankais3r) proved to be invaluable.  
