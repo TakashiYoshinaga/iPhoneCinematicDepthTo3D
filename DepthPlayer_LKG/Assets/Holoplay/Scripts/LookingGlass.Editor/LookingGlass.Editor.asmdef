@@ -1,0 +1,17 @@
+{
+    "name": "LookingGlass.Editor",
+    "references": [
+        "LookingGlass",
+        "FFmpegOut"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

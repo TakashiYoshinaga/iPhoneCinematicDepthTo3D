@@ -1,0 +1,14 @@
+{
+    "name": "Unity.Postprocessing.Runtime",
+    "references": [
+        "LookingGlass"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

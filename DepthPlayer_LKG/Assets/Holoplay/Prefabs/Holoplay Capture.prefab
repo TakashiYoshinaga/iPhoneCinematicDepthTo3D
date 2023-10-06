@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1770150239514932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4858807375538342}
+  - component: {fileID: 114865344359803568}
+  - component: {fileID: 20959260662082832}
+  - component: {fileID: 124810472620976602}
+  - component: {fileID: 81430364140143098}
+  m_Layer: 0
+  m_Name: Holoplay Capture
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4858807375538342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770150239514932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114865344359803568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770150239514932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de313519d88fe64f97b9e99db9c6c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSavedVersion:
+    major: 1
+    minor: 5
+    patch: 0
+  m_TargetDisplay: 0
+  targetLKGName: LKG-P06719
+  targetLKGIndex: 0
+  emulatedDevice: 0
+  preview2D: 0
+  quiltPreset: -1
+  customQuiltSettings:
+    quiltWidth: 4096
+    quiltHeight: 4096
+    viewColumns: 5
+    viewRows: 9
+    numViews: 45
+    aspect: -1
+    overscan: 0
+  quiltTexture: {fileID: 0}
+  saveQuilt: 0
+  m_OverrideQuilt: {fileID: 0}
+  renderOverrideBehind: 0
+  screenshot2DKey: 290
+  screenshotQuiltKey: 291
+  cameraData:
+    holoplay: {fileID: 114865344359803568}
+  gizmos:
+    holoplay: {fileID: 114865344359803568}
+  events:
+    holoplay: {fileID: 114865344359803568}
+  optimization:
+    holoplay: {fileID: 114865344359803568}
+  debugging:
+    holoplay: {fileID: 114865344359803568}
+  m_Size: 5
+  m_NearClipFactor: 0.5
+  m_FarClipFactor: 4
+  m_ScaleFollowsSize: 0
+  m_ClearFlags: 2
+  m_Background: {r: 0, g: 0, b: 0, a: 1}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_FieldOfView: 14
+  m_Depth: 0
+  m_RenderingPath: -1
+  useOcclusionCulling: 1
+  m_AllowHDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_UseFrustumTarget: 0
+  m_FrustumTarget: {fileID: 0}
+  m_ViewconeModifier: 1
+  m_CenterOffset: 0
+  m_HorizontalFrustumOffset: 0
+  m_VerticalFrustumOffset: 0
+  m_DrawHandles: 1
+  m_FrustumColor: {r: 0, g: 1, b: 0, a: 1}
+  m_MiddlePlaneColor: {r: 0.5882353, g: 0.19607843, b: 1, a: 1}
+  m_HandleColor: {r: 0.29411766, g: 0.39215687, b: 1, a: 1}
+  m_OnHoloplayReady:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnViewRender:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ViewInterpolation: 0
+  m_ReduceFlicker: 0
+  m_FillGaps: 0
+  m_BlendViews: 0
+  m_ShowAllObjects: 0
+--- !u!20 &20959260662082832
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770150239514932}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 38.221733
+  far clip plane: 60.721733
+  field of view: 14
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &124810472620976602
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770150239514932}
+  m_Enabled: 1
+--- !u!81 &81430364140143098
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770150239514932}
+  m_Enabled: 1
