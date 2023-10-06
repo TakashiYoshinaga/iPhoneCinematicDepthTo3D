@@ -1,7 +1,7 @@
 # iPhone CinematicDepth To 3D
 
 ## 1. Overview
-This is a sample C# project that outputs separate videos extracting Depth and Color information from videos shot in iPhone's Cinematic mode, as well as a sample Unity project for 3D playback of these videos.  
+This is a sample C# project that extracts Depth and Color information from videos shot in iPhone's Cinematic mode and outputs each as separate videos, along with a sample Unity project for 3D playback of these videos. 
 
 
 This sample consists of three projects:
