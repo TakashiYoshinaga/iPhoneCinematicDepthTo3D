@@ -5,6 +5,8 @@
 Cinematicモードで撮影したビデオからDepthとColorを分離するC#のサンプルプロジェクト。
 - DepthPlayer：  
 DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェクト。
+- DepthPlayer_LKG：  
+Looking GlassでDepthとColorのビデオを3Dで表示するUnityのサンプルプロジェクト。
 
 [![](https://img.youtube.com/vi/MR8TF1z-nTg/0.jpg)](https://www.youtube.com/watch?v=MR8TF1z-nTg)
 
@@ -61,7 +63,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
    **補足:** depthビデオのサイズは512x288または288x512、colorビデオのサイズは512x512です。
 
 ## 6. Unityでの3Dイメージとしての表示
-1. UnityでDepthPlayerプロジェクトを開く
+1. UnityでDepthPlayerまたはDepthPlayer_LKGプロジェクトを開く
 2. Assetsフォルダ以下の任意のフォルダにcolor_outputとdepth_outputを追加 
    例：VideoFilesフォルダ内
 3. Scenesフォルダ内のDepthPlayerをダブルクリック
@@ -77,6 +79,7 @@ DepthとColorのビデオを3Dで表示するUnityのサンプルプロジェク
 このサンプル自体はMITライセンスですが、以下の依存関係とそれに関連するライセンスに注意してください：
 - [GPAC2.2](https://gpac.wp.imt.fr/) - ライセンス: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - ライセンス: [GNU Lesser General Public License, version 2.1]
+- [Looking Glass Unity PlugIn](https://lookingglassfactory.com) - License: [詳しくは [こちら](https://github.com/TakashiYoshinaga/iPhoneCinematicDepthTo3D/blob/main/DepthPlayer_LKG/Assets/Holoplay/LICENSE.txt)]
 
 ## 8. 参考
 Depth Extractorを開発するにあたり、[Jan Kaiser](https://twitter.com/jankais3r)氏による試行錯誤の結果を参考にしました。  
