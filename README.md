@@ -2,11 +2,13 @@
 
 ## 1. Overview
 
-This sample consists of two projects:
+This sample consists of three projects:
 - DepthExtractor:  
 A C# sample project for separating Depth and Color from videos shot in Cinematic mode.
 - DepthPlayer:  
 A Unity sample project to display Depth and Color videos in 3D.
+- DepthPlayer_LKG:  
+A Unity sample project to display Depth and Color videos in 3D using Looking Glass.
 
 [![](https://img.youtube.com/vi/MR8TF1z-nTg/0.jpg)](https://www.youtube.com/watch?v=MR8TF1z-nTg)
 
@@ -62,7 +64,7 @@ Additionally, the iPhone 15 Series is compatible.
    **Note:** The depth video size is either 512x288 or 288x512, while the color video size is 512x512.
 
 ## 6. Display in 3D within Unity
-1. Open the DepthPlayer project in Unity
+1. Open the DepthPlayer or DepthPlayer_LKG project in Unity
 2. Place `color_output` and `depth_output` into any directory under the Assets folder  
    e.g., within the VideoFiles directory
 3. Double-click on DepthPlayer inside the Scenes directory
@@ -70,7 +72,7 @@ Additionally, the iPhone 15 Series is compatible.
 5. Drag & drop `color_output` onto "Color Video" in the Inspector
 6. Drag & drop `depth_output` onto "Depth Video" in the Inspector
 7. At the top of the UnityEditor, click the Play button  
-   **Note 1:** Adjust the displayed object size by changing the Scale of the [DepthMeshRoot] object.  
+   **Note 1:** To change the display size, position, or angle, please modify the Transform parameters of the [DepthMeshRoot] object.  
    **Note 2:** To solely adjust the depth scale, you can modify the Depth Scale value (Default=1.5) of the [Main] object.  
    **Note 3:** To change viewpoints, please use the Scene View. Viewpoint control within the Game View have not been implemented.
 
@@ -78,6 +80,7 @@ Additionally, the iPhone 15 Series is compatible.
 While this sample is under the MIT License, be aware of the following dependencies and their respective licenses:
 - [GPAC2.2](https://gpac.wp.imt.fr/) - License: [GNU Lesser General Public License, version 2.1]
 - [FFmpeg](https://ffmpeg.org/) - License: [GNU Lesser General Public License, version 2.1]
+- [FFmpeg](https://lookingglassfactory.com) - License: [See [here](https://github.com/TakashiYoshinaga/iPhoneCinematicDepthTo3D/blob/main/DepthPlayer_LKG/Assets/Holoplay/LICENSE.txt)]
 
 ## 8. Acknowledgements
 In the development of Depth Extractor, the trial and error results by [Jan Kaiser](https://twitter.com/jankais3r) proved to be invaluable.  
