@@ -34,7 +34,7 @@ Additionally, the iPhone 15 Series is compatible.
 1. Connect the iPhone to your PC with a USB cable
 2. Using Explorer, locate the cinematic video you wish to use
 3. Copy it to any folder on your PC  
-   **Note:** When shooting a video, filenames like IMG_0001.MOV and IMG_E0001.MOV might be generated. Always select files without the "E", such as IMG_0001.MOV.
+   **Note:** When shooting a video, filenames like IMG_0001.MOV and IMG_E0001.MOV might be generated. Make sure to select files without the "E", such as IMG_0001.MOV.
 
 #### For Mac
 1. Connect the iPhone to your Mac using a USB cable
