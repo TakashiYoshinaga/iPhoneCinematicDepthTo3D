@@ -72,7 +72,7 @@ Looking GlassでDepthとColorのビデオを3Dで表示するUnityのサンプ�
 6. Inspectorで「Depth Video」にdepth_outputをドラッグ＆ドロップ
 7. UnityEditorの上部でPlayボタンをクリックして再生<br>
    **補足1:** 表示オブジェクトのサイズ、位置、角度を変更は[DepthMeshRoot]オブジェクトのTranslateの各パラメータで変更できます。  
-   **補足2:** Depth Scaleのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。  
+   **補足2:** 奥行き方向のスケールのみを変更する場合、[Main]オブジェクトのDepth Scaleの値（デフォルト=1.5）も変更できます。  
    **補足3:** マウスを用いた視点変更にはScene Viewを使用してください。Game View内での視点コントロールは未実装です。
 
 ## 7. ライセンス
